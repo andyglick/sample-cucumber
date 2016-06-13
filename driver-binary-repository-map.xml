@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+	<windows>
+		<driver id="internetexplorer">
+			<version id="2.48.0">
+				<!-- The 64bit version of the IEDriverServer as it has performance issues -->
+				<bitrate sixtyfourbit="true">
+					<filelocation>http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_x64_2.48.0.zip
+					</filelocation>
+					<hash>abd88efa0f33d238cc786363d1c7c2108633340b</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+				<bitrate thirtytwobit="true">
+					<filelocation>http://selenium-release.storage.googleapis.com/2.48/IEDriverServer_Win32_2.48.0.zip
+					</filelocation>
+					<hash>185e84c2cec5de00be802a1cc3a472ed678c65b0</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="googlechrome">
+			<version id="2.20">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>http://chromedriver.storage.googleapis.com/2.20/chromedriver_win32.zip
+					</filelocation>
+					<hash>3ce46ef6ec89e48707065550b1ecb5674b1dc548</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="phantomjs">
+			<version id="2.0.0">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-windows.zip
+					</filelocation>
+					<hash>ca0c753e5d8820a271dd7c2d6a9fad6ff86fb09f</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+			<version id="1.9.8">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-windows.zip
+					</filelocation>
+					<hash>4531bd64df101a689ac7ac7f3e11bb7e77af8eff</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+	</windows>
+	<linux>
+		<driver id="googlechrome">
+			<version id="2.20">
+				<bitrate sixtyfourbit="true">
+					<filelocation>http://chromedriver.storage.googleapis.com.example/2.20/chromedriver_linux64.zip
+					</filelocation>
+					<hash>acb76a3eb2bc94ee96b6a17121980e2662c88650</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+				<bitrate thirtytwobit="true">
+					<filelocation>http://chromedriver.storage.googleapis.com.example/2.20/chromedriver_linux32.zip
+					</filelocation>
+					<hash>237a5ed160bb23118a9ea5b84700e8799e897bd4</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="phantomjs">
+			<version id="1.9.8">
+				<bitrate sixtyfourbit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-linux-x86_64.tar.bz2
+					</filelocation>
+					<hash>d29487b2701bcbe3c0a52bc176247ceda4d09d2d</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+				<bitrate thirtytwobit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-linux-i686.tar.bz2
+					</filelocation>
+					<hash>efac5ae5b84a4b2b3fa845e8390fca39e6e637f2</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+	</linux>
+	<osx>
+		<driver id="googlechrome">
+			<version id="2.20">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>http://chromedriver.storage.googleapis.com/2.20/chromedriver_mac32.zip
+					</filelocation>
+					<hash>a6af30e9deaf37d615c53a908a880c1735772a20</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+		<driver id="phantomjs">
+			<version id="2.0.0">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-macosx.zip
+					</filelocation>
+					<hash>97f87188bb2fc81e0c57ec3a376b722e3bcc30c9</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+			<version id="1.9.8">
+				<bitrate thirtytwobit="true" sixtyfourbit="true">
+					<filelocation>https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-macosx.zip
+					</filelocation>
+					<hash>d70bbefd857f21104c5961b9dd081781cb4d999a</hash>
+					<hashtype>sha1</hashtype>
+				</bitrate>
+			</version>
+		</driver>
+	</osx>
+</root>

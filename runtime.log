@@ -1,0 +1,8 @@
+2016-06-13 13:02:40 DEBUG GuiceModuleAggregator$Builder:78 - Modules [[[io.magentys.cinnamon.guice.ConfigModule, io.magentys.cinnamon.guice.CucumberModule, io.magentys.cinnamon.guice.WebDriverModule]]]
+2016-06-13 13:02:40 DEBUG GuiceModuleAggregator$Builder:79 - Overrides modules []
+2016-06-13 13:07:07 DEBUG GuiceModuleAggregator$Builder:78 - Modules [[[io.magentys.cinnamon.guice.ConfigModule, io.magentys.cinnamon.guice.CucumberModule, io.magentys.cinnamon.guice.WebDriverModule]]]
+2016-06-13 13:07:07 DEBUG GuiceModuleAggregator$Builder:79 - Overrides modules []
+2016-06-13 13:08:34 DEBUG GuiceModuleAggregator$Builder:78 - Modules [[[io.magentys.cinnamon.guice.ConfigModule, io.magentys.cinnamon.guice.CucumberModule, io.magentys.cinnamon.guice.WebDriverModule]]]
+2016-06-13 13:08:34 DEBUG GuiceModuleAggregator$Builder:79 - Overrides modules []
+2016-06-13 13:09:37 DEBUG GuiceModuleAggregator$Builder:78 - Modules [[[io.magentys.cinnamon.guice.ConfigModule, io.magentys.cinnamon.guice.CucumberModule, io.magentys.cinnamon.guice.WebDriverModule]]]
+2016-06-13 13:09:37 DEBUG GuiceModuleAggregator$Builder:79 - Overrides modules []
